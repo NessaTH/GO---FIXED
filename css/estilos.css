@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F5F1F1;
+  padding-top: 3.5rem;
+}
+
+.quienesSomos {
+  margin-top: 100px;
+}
+
+.iconoWs {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 1em;
+  right: .5em;
+}
+
+.menuGO {
+  background: #4ECB71;
+  border-bottom: solid white 10px;
+  z-index: 3;
+}
+
+.carruselHome {
+  margin-top: 3.5rem;
+  z-index: 2;
+}
+
+.bgCarruselHome {
+  background: #FFD233;
+}
+
+.bgInside {
+  height: 55px;
+  width: 100vw;
+  left: 1px;
+  top: 7px;
+  border-radius: 5px;
+  background: #000000;
+  border-top: solid #FFD233 8px;
+  border-bottom: solid #FFD233 14px;
+}
+
+.bgInside p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  /*line-height: 15px;*/
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.somosGO {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 128.91%;
+  /* or 32px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000000;
+}
+
+.casita {
+  height: 27px;
+  width: 30px;
+  left: 304px;
+  top: 29px;
+  border-radius: 0px;
+}
+
+.h3HomeUno {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.h3HomeResto {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.homeConoceMas {
+  border-bottom: solid #FFD233 1px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #030303;
+  display: inline-block;
+}
+
+.homeConoceMas:active {
+  color: #FFD233;
+  text-decoration: none;
+}
+
+.homeConoceMas:hover {
+  text-decoration: none;
+  color: #FFD233;
+}
+
+.bordeTopGris::before {
+  content: "";
+  /* This is necessary for the pseudo element to work. */
+  display: block;
+  /* This will put the pseudo element on its own line. */
+  margin: 0 auto;
+  /* This will center the border. */
+  width: 100%;
+  /* Change this to whatever width you want. */
+  padding-bottom: 20px;
+  /* This creates some space between the element and the border. */
+  border-top: 1px solid rgba(31, 33, 32, 0.8);
+}
+
+.bgNegro {
+  background-color: #000000;
+}
+
+.contactoHome {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 128.91%;
+  /* or 22px */
+  color: #010101;
+}
+
+.bordeTopVerde::before {
+  content: "";
+  /* This is necessary for the pseudo element to work. */
+  display: block;
+  /* This will put the pseudo element on its own line. */
+  margin: 0 auto;
+  /* This will center the border. */
+  width: 100%;
+  /* Change this to whatever width you want. */
+  padding-bottom: 20px;
+  /* This creates some space between the element and the border. */
+  border-top: 1px solid #4ECB71;
+}
+
+.h3Testimonios {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.h2Testimonios {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.respuestas {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.normal {
+  font-weight: lighter;
+}
+
+.pTestimonios {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.preguntasF {
+  font-style: italic;
+  font-weight: 800;
+  font-size: 15px;
+  color: #4ECB71;
+}
+
+.lineaDecor {
+  display: inline-block;
+  position: relative;
+}
+
+.lineaDecor::after, .lineaDecor::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 1px;
+  background-color: #4ECB71;
+  top: 0.9em;
+}
+
+@media all and (min-width: 768px) {
+  .lineaDecor::after, .lineaDecor::before {
+    width: 262px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .lineaDecor::after, .lineaDecor::before {
+    width: 377px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .lineaDecor::after, .lineaDecor::before {
+    width: 480px;
+  }
+}
+
+.lineaDecor::before {
+  left: -140px;
+}
+
+@media all and (min-width: 768px) {
+  .lineaDecor::before {
+    left: -282px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .lineaDecor::before {
+    left: -397px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .lineaDecor::before {
+    left: -500px;
+  }
+}
+
+.lineaDecor::after {
+  right: -140px;
+}
+
+@media all and (min-width: 768px) {
+  .lineaDecor::after {
+    right: -282px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .lineaDecor::after {
+    right: -397px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .lineaDecor::after {
+    right: -500px;
+  }
+}
+
+.form-control {
+  background-color: #F5F1F1;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.form-control:focus {
+  border: 1px solid #6200EE;
+  background-color: #F5F1F1;
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.numeracionForm {
+  color: #4ECB71;
+}
+
+.fontForm {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.pForm {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.letraVerde {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #4ECB71;
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.bg-nav {
+  background-color: #4ECB71;
+}
+
+.bgW {
+  background-color: white;
+}
+
+.linkNav {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: #000000;
+  border: 0.5px solid #4ECB71;
+  padding-left: 10px;
+}
+
+.wImage {
+  width: 24px;
+  height: 24px;
+}
+
+.linkNav:focus {
+  background-color: #FFD233;
+}
+
+.tachado {
+  text-decoration: line-through;
+  color: #4ECB71;
+}
+
+.whatsapp {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #4ECB71;
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.pContacto {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: lighter;
+  font-size: 12px;
+}
