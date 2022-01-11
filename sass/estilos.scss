@@ -163,8 +163,6 @@ body{
     font-size: 15px;
 }
 
-
-
 .normal{
     font-weight: lighter;
 }
@@ -270,6 +268,7 @@ body{
     font-size: 15px;
 }
 
+/*cosas agregadas antes del merge from mateo's*/
 .bg-nav{
     background-color: #4ECB71;
 }
@@ -314,3 +313,207 @@ body{
     font-weight: lighter;
     font-size: 12px;
 }
+
+/*! Clases Mateo */
+
+.bgW {
+    background-color: white;
+  }
+  .linkNav {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .wImage {
+    width: 24px;
+    height: 24px;
+  }
+  .card-body {
+    padding: 10px;
+  }
+  .tachado {
+    text-decoration: line-through;
+    color: $verdeNavbar;
+  }
+  .bordeR {
+    border-radius: 15px;
+  }
+  .padding0 {
+    padding: 0;
+  }
+  .fontErrorB {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+  }
+  .fontErrorR {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 32px;
+    color: #cb4e4e;
+  }
+  
+  .fontErrorPBlack {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    color: #010101;
+  }
+  .fontErrorPRed {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19px;
+    color: #cb4e4e;
+  }
+  .fontErrorPItalic {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: #010101;
+  }
+  .h3SomosGreenO {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: $negroPrimario;
+  }
+  
+  .h3SomosGContenido {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: $negroPrimario;
+  }
+  .h3SomosGreenExtra {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: $negroPrimario;
+  }
+  .h3Aceites {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: $verdeNavbar;
+  }
+  .h3Usos {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: $verdeNavbar;
+  }
+  .pTestimonio {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+  }
+  .h3Testimonio {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+  }
+  .textPromo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 128.91%;
+    color: #000000;
+  }
+  .textPromoV {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 128.91%;
+    color: $verdeNavbar;
+  }
+  .h2ProductosVerde {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 32px;
+    color: #4ecb71;
+  }
+  .h2ProductosNegro {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 32px;
+    color: #010101;
+  }
+  .h3Productos {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    color: #010101;
+  }
+  .h3ProductosV {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    color: #4ecb71;
+  }
+  input[type="radio"] {
+    transform: scale(1.5);
+  }
+  .quienesSomos {
+    margin-top: 23%;
+  }
+  .mTop100 {
+    margin-top: 100px;
+  }
+  .mTop50 {
+    margin-top: 50px;
+  }
+  .bordeTopGris::before {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+    padding-bottom: 20px; /* This creates some space between the element and the border. */
+    border-top: 1px solid rgba(31, 33, 32, 0.8);
+  }
+  .carousel-control-next-icon {
+    margin-top: 11px;
+  }
+  
+  .carousel-control-prev-icon {
+    margin-top: 11px;
+  }
