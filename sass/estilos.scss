@@ -517,3 +517,16 @@ body{
   .carousel-control-prev-icon {
     margin-top: 11px;
   }
+
+  .enlacesRedes{
+    color: #030303;
+    text-decoration: none;
+    &:active{
+      color: #FFD233;
+      text-decoration: none;
+  }
+  &:hover{
+      text-decoration: none;
+      color: #FFD233;
+  }
+  }

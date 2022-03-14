@@ -621,3 +621,19 @@ input[type="radio"] {
 .carousel-control-prev-icon {
   margin-top: 11px;
 }
+
+.enlacesRedes {
+  color: #030303;
+  text-decoration: none;
+}
+
+.enlacesRedes:active {
+  color: #FFD233;
+  text-decoration: none;
+}
+
+.enlacesRedes:hover {
+  text-decoration: none;
+  color: #FFD233;
+}
+/*# sourceMappingURL=estilos.css.map */
